@@ -1,62 +1,68 @@
-# TinyMCE MLH Global Hackweek Workshop: Building a Customizable Rich Text Editor for a CMS
+# TinyMCE Image Optimizer by Uploadcare Demo
 
-**Presenter:** Mrina Sugosh (Tiny MCE)
+![TinyMCE + Uploadcare](https://ucarecdn.com/ab5fa504-67d7-4905-ac98-537ef63006f4/-/preview/1000x/-/quality/smart/-/format/auto/)
 
-## Goal
+This repository contains the demo code for the TinyMCE Image Optimizer by Uploadcare webinar. Learn how to integrate Uploadcare's powerful image optimization capabilities with TinyMCE to create a seamless content editing experience.
 
-In this workshop, developers will learn how to set up and customize TinyMCE to create a powerful and flexible Content Management System (CMS). From basic editor setup to adding advanced features like AI-powered content assistance, accessibility, and version control, this session will guide you through creating a rich text editor tailored for a CMS.
+## Features
 
-- Set up TinyMCE within the React project.
-- Integrate open-source plugins to enhance core rich text editing features.
-- Add accessibility features or spellcheck to improve usability.
-- Implement version control with the Revision History plugin.
-- Add AI-powered content assistance using the AI Assistant.
+- 📼 Automatic image optimization
+- 📱 Responsive images with automatic srcset generation
+- 🎨 Advanced image editing capabilities
+- 🚀 Fast CDN delivery
+- 📊 Real-time image transformation
 
-## Prerequisites
+## Getting Started
 
-- [Clone Boilerplate Code](https://github.com/mrinasugosh/tinymce-react-cms-ghw.git)
-- [TinyMCE Cloud Account](https://www.tiny.cloud/get-tiny/?utm_campaign=mlh_devrel_global_hackweek&utm_source=mlh&utm_medium=referral&utm_term=github)
-- [OpenAI API Account](https://platform.openai.com)
-
-## Installation and Initial Setup
-
-1. Clone this repository:
-
-   ```sh
-   git clone https://github.com/mrinasugosh/tinymce-react-cms-ghw.git
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mrinasugosh/tinymce-uploadcare-cms-demo.git
+   cd tinymce-uploadcare-cms-demo
    ```
 
-2. Navigate to the project directory:
-
-   ```sh
-   cd tinymce-react-cms-ghw
-   ```
-
-3. Install the dependencies:
-
-   ```sh
+2. Install dependencies:
+   ```bash
    npm install
    ```
 
-4. Start the development server:
+3. Create a `.env` file in the root directory and add your API keys:
+   ```env
+   VITE_TINYMCE_API_KEY=your_tinymce_api_key
+   ```
 
-   ```sh
+4. Start the development server:
+   ```bash
    npm run dev
    ```
 
-This will run the app in the development mode. Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+## Configuration
 
-## Final Demo
+### TinyMCE Setup
 
-<img width="1458" alt="image" src="https://github.com/user-attachments/assets/7366a2ef-f786-437f-b103-15c0f51c933a">
+The TinyMCE editor is configured with the Uploadcare plugin in `src/components/TinyEditor.jsx`. Key features include:
 
+- Image upload and optimization
+- Responsive image handling
+- Advanced image editing tools
+- Automatic CDN delivery
+
+### Uploadcare Integration
+
+The demo uses Uploadcare's JavaScript API for:
+
+- Automatic image optimization
+- Responsive image generation
+- CDN delivery and caching
+- Image transformation capabilities
 
 ## Resources
 
-- **TinyMCE CMS Starter Config:** Learn more at [TinyMCE CMS Starter Config](https://tiny.cloud/solutions/cms-editor/?utm_campaign=mlh_devrel_global_hackweek&utm_source=mlh&utm_medium=referral&utm_term=github).
-- **Free Trial:** Get started with TinyMCE for free at [TinyMCE Free Trial](https://tiny.cloud/pricing/?utm_campaign=mlh_devrel_global_hackweek&utm_source=mlh&utm_medium=referral&utm_term=github).
-- **Installing TinyMCE:** Follow the instructions at [Installing TinyMCE](https://www.tiny.cloud/docs/tinymce/latest/react-cloud/?utm_campaign=mlh_devrel_global_hackweek&utm_source=mlh&utm_medium=referral&utm_term=github).
+- [TinyMCE Documentation](https://www.tiny.cloud/docs/)
+- [Uploadcare Documentation](https://uploadcare.com/docs/)
+- [TinyMCE Uploadcare Plugin](https://www.tiny.cloud/docs/tinymce/latest/uploadcare/)
 
-## Questions?
+## Support
 
-If you have any questions or issues, please reach out via GitHub or contact support via [TinyMCE Contact Us Form](https://www.tiny.cloud/contact/?utm_campaign=mlh_devrel_global_hackweek&utm_source=mlh&utm_medium=referral&utm_term=github).
+For questions and support:
+- TinyMCE Support: [https://support.tiny.cloud/](https://support.tiny.cloud/)
+- Uploadcare Support: [https://uploadcare.com/support/](https://uploadcare.com/support/)

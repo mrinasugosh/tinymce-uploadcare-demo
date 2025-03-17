@@ -1,17 +1,11 @@
 import React, { useState } from 'react';
-import Sidebar from './components/Sidebar';
-import Blog from './components/Blog';
+import Post from './components/Post';
+import logo from './assets/logo_tiny_mark_secondary.svg';
 import './styles/App.css';
 
 function App() {
   const [formData, setFormData] = useState({
-    title: '',
-    content: '',
-    author: 'James Swanson',
-    publishDate: '2024-10-04',
-    category: 'Travel Tips',
-    tags: ['Sights', 'Itineraries', 'Europe'],
-    cover: 'https://www.weather.is/wp-content/uploads/2023/03/Top25.png'
+    description: ''
   });
 
   const handleFormChange = (e) => {
@@ -24,9 +18,17 @@ function App() {
 
   return (
     <div className="container">
+      <header className="header">
+        <div className="logo">
+          <img src={logo} alt="Uploadcare" />
+        </div>
+        <div className="header-buttons">
+          <button className="header-button">Questions?</button>
+          <button className="header-button">Save & exit</button>
+        </div>
+      </header>
       <div className="mainContent">
-        <Blog formData={formData} onFormChange={handleFormChange} />
-        <Sidebar formData={formData} handleFormChange={handleFormChange} />
+        <Post formData={formData} onFormChange={handleFormChange} />
       </div>
     </div>
   );
