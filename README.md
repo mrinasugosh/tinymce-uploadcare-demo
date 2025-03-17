@@ -1,8 +1,10 @@
 # TinyMCE Image Optimizer by Uploadcare Demo
 
-![TinyMCE + Uploadcare](https://ucarecdn.com/ab5fa504-67d7-4905-ac98-537ef63006f4/-/preview/1000x/-/quality/smart/-/format/auto/)
-
 This repository contains the demo code for the TinyMCE Image Optimizer by Uploadcare webinar. Learn how to integrate Uploadcare's powerful image optimization capabilities with TinyMCE to create a seamless content editing experience.
+
+
+<img width="1487" alt="Screenshot 2025-03-17 at 2 00 30 AM" src="https://github.com/user-attachments/assets/625d3224-4e1f-47a3-b38e-bc7ed0d08cf7" />
+
 
 ## Features
 
@@ -28,6 +30,7 @@ This repository contains the demo code for the TinyMCE Image Optimizer by Upload
 3. Create a `.env` file in the root directory and add your API keys:
    ```env
    VITE_TINYMCE_API_KEY=your_tinymce_api_key
+   VITE_UPLOADCARE_PUBLIC_KEY=upload_care_key
    ```
 
 4. Start the development server:
