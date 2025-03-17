@@ -67,5 +67,5 @@ The demo uses Uploadcare's JavaScript API for:
 ## Support
 
 For questions and support:
-- TinyMCE Support: [https://support.tiny.cloud/](https://support.tiny.cloud/)
-- Uploadcare Support: [https://uploadcare.com/support/](https://uploadcare.com/support/)
+- [TinyMCE Support](https://www.tiny.cloud/contact/)
+- [Uploadcare Support](https://uploadcare.com/schedule-demo/)
